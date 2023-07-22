@@ -1,0 +1,1467 @@
+/* Navbar */
+.cryaboutitswidth {
+  /* position: absolute; */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.redfont {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: center;
+}
+
+.navbarcenterrehnede {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.buttonClass1 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Poppins';
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: rgba(0, 0, 211, 1);
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 0px 0px #97c4fe;
+  text-shadow: inset 0px 1px 0px #1570cd;
+  background: #2E5DA1;
+}
+
+.buttonClass1:hover {
+  background: #205295;
+  color: #ffffff;
+}
+
+.sabkanavbar {
+  line-height: 30px;
+  font-family: 'Poppins';
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.navbar {
+  margin-bottom: 34px;
+}
+
+/* Title Section */
+.imagehead
+{
+  width:47%;
+  height:50%;
+}
+.scholarkid
+{
+  width: 100%;
+  height: 70%;
+  margin-top: 13%;
+}
+.headtitle
+{
+  width:47%;
+  margin-top: 7%;
+}
+.badatexttitle
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #1A1A1A;
+}
+.chotutextasdescription
+{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #666666;
+  margin-left: 3%;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.or-text {
+  margin: 0 10%;
+  font-weight: bold;
+  color: #888888;
+}
+
+.buttonClass1 {
+  margin: 3% 15% 3% 0;
+}
+#Title
+{
+  margin-bottom: 5%;
+}
+.buttonheaders
+{
+  margin-top:16%;
+}
+.headerbuttons
+{
+  width:100%;
+}
+
+@media (max-width:998px){
+.imagehead
+{
+  width:100%;
+  margin-left: 7%;
+}
+.scholarkid
+{
+  width:100%;
+}
+.headtitle
+{
+  width:100%;
+  margin-top:5%;
+  margin-left: 2%;
+}
+.badatexttitle
+{
+  text-align: left;
+  margin-left: 4%;
+  font-size: 3.5rem;
+}
+ .chotutextasdescription
+ {
+   text-align: left;
+   margin-left: 4%;
+   font-size: 1.75rem;
+ }
+ .buttonheaders
+ {
+   margin-top:10%;
+ }
+}
+
+#badamarkslaayahai {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 18px;
+  margin: 4% 0% 0% 15%;
+  color: #1E1E1E;
+}
+
+#studentatpadmashreeacademy {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 1% 0% -7% 15%;
+  color: #8C8D90;
+}
+
+
+
+/* OFFERINGS */
+.container-fluid
+{
+  padding: 1% 5% ;
+}
+#offeringsmaintitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.4px;
+  color: #1A1A1A;
+  text-align: center;
+}
+
+#offeringsdescription {
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 18px;
+  color: #666666;
+
+}
+
+.centerkarega
+{
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+width: 16.5625rem;
+height: 9.9375rem;
+margin:1.5%;
+}
+.centerkarega:hover
+{
+  transform: scale(1.25);
+}
+.headerofcards
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.3;
+color:white;
+text-align: center;
+}
+
+.descriptionofcards
+{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: left;
+  color: white;
+}
+.goocolour {
+  color: #D9D9D9;
+  margin-top: 31px;
+  left: 112px;
+  right: 123px;
+}
+
+@media (max-width:998px)
+{
+  #offeringsmaintitle
+  {
+    font-size: 2.5rem;
+    padding-top: 10%;
+  }
+  #offeringsdescription
+  {
+    padding-top: 4%;
+    font-size: 1rem;
+    padding-bottom: 3%;
+  }
+  .centerkarega
+  {
+    width: 18.125rem;
+    height: 9.375rem;
+    margin: 0% 10% 2% 7%;
+  }
+}
+/* END OF OFFERINGS */
+
+
+/* TEACHING Methodology */
+.littledown
+{
+  padding-top: 5%;
+}
+.floatkarengebhai {
+  float: left;
+  width: 422px;
+  height: 422px;
+
+}
+.imagemobile
+{
+  width:47%;
+}
+.teachingmobile
+{
+  width:47%;
+}
+#TeachingMethod {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  color: #1A1A1A;
+  margin-top: 15%;
+}
+
+#teachingdescription {
+  text-align: left;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #666666;
+  padding-top: 3%;
+}
+@media (max-width:998px)
+{
+  .floatkarengebhai
+  {
+    position: static;
+    width: 13.75rem;
+    height: 13.75rem;
+    margin-left: 40%;
+
+  }
+  .imagemobile
+  {
+    width:100%;
+    margin-top:4%;
+  }
+  .teachingmobile
+  {
+    text-align: left;
+    width:90%;
+    margin: -10% 0% 0% 7%;
+  }
+  #TeachingMethod
+  {
+    font-size: 2rem;
+    margin-left: 27%;
+  }
+  #teachingbhaiteaching
+  {
+    margin-left:40%;
+  }
+}
+/* END OF TEACHING Methodology */
+
+.carousel-control-prev-icon,.carousel-control-next-icon
+{
+  background-color: black;
+  border-radius: 50%;
+}
+#testimonialtextmain {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  color: #1A1A1A;
+  padding: 8% 0% 1% 0%;
+  margin: 5% 0% 1% 0%;
+  text-align: center;
+}
+
+.testimonalcards {
+  width: 20rem;
+  height: 40rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin : 0% 3% 0% 3%;
+}
+.mcard
+{
+  margin: auto;
+  width:25rem;
+  height:50rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.testimonalcards:hover
+{
+transform:scale(1.2);
+}
+.mcard:hover
+{
+transform:scale(1.2);
+}
+
+.testimonialimagere {
+
+  width: 20.563rem;
+  height:21.375rem;
+  margin: 2.5%;
+}
+
+.ttext {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.percent {
+  margin: 2.5%;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8C8D90;
+}
+
+.testdesc {
+  margin: 2.5%;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #666666;
+}
+.testimonialbutton
+{
+  margin-left: 40%;
+}
+
+#carouselExampleIndicators2
+{
+  display: block!important;
+}
+#carouselExampleIndicators21
+{
+  display: none!important;
+}
+
+@media (max-width:998px) {
+#carouselExampleIndicators2
+{
+  display: none!important;
+}
+#carouselExampleIndicators21
+{
+  display: block!important;
+}
+.testdesc, .percent
+{
+  font-size:1.3rem;
+}
+.ttext
+{
+  font-size: 2rem;
+  margin-left:2%;
+}
+}
+/* teambehindthis */
+.teambehindthis
+{
+  padding-top: 10%;
+}
+#teambehinddis {
+
+  display: inline-block;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 60px;
+  color: #1A1A1A;
+}
+
+#teambehindkadescr {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 27px;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+#teambehindisbutton {
+
+  width: 40%;
+  height: 50px;
+  background: #2E5DA1;
+  border-radius: 10px;
+
+}
+
+.teamtohyehihoga {
+  width: 80%;
+  border-radius: 25px;
+  margin-top: -6%;
+}
+@media (max-width:998px)
+{
+#teambehinddis
+{
+  font-size: 2rem;
+  margin-left: 25%;
+}
+#teambehindisbutton
+{
+  font-size: 1rem;
+  margin-left:23%;
+}
+.tbtimage
+{
+  width:100%;
+  margin-left: 7%;
+}
+.headerteam
+{
+  width:100%;
+  margin-left: 7%;
+}
+}
+/* END OF TEAM BEHIND THIS */
+
+
+/* FOOTER */
+#footer {
+  background-color: #181818;
+  border: 1px solid #000000;
+}
+
+.Padmashreelogo {
+  width: 125px;
+  height: 125px;
+  margin-right: 15px;
+}
+
+.footerheaders
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.footerdescriptors
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: #8C8D90;
+}
+.p-5
+{
+  padding-top: 3rem!important;
+  padding: 0.5rem!important;
+}
+.p-2 {
+    padding-top: 3rem!important;
+}
+.finalending {
+  color: #8C8D90;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 15px;
+  padding-top: 10%;
+}
+
+/* Style the input elements and the submit button */
+input[type=text],
+input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.andalign
+{
+  text-align: center;
+}
+.positionhagega {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.oof
+{
+  margin: 0% -5% 0% -2%;
+}
+#inputemailcheez {
+  box-sizing: border-box;
+  width: 179px;
+  height: 36px;
+  border: 1px solid #8C8D90;
+  border-radius: 10px;
+}
+
+#submitbuttonfooter {
+  width: 119px;
+  height: 36px;
+  background: #2E5DA1;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+@media (max-width:998px)
+{
+#inputemailcheez
+{
+  display: block;
+}
+.footyimage, .oof
+{
+  width:100%;
+}
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 2 BEGINS */
+.imagesaboutus
+{
+  text-align: center;
+}
+.textsaboutus
+{
+margin-left: 10%;
+margin-right: 12%;
+text-align: justify;
+}
+.aboutusH1
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5rem;
+line-height: 3.75rem;
+}
+.aboutusT1
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 1.875rem;
+color: #656668;
+}
+.aboutusI1
+{
+  width: 80%;
+  /* width: 57.875rem;
+  height: 25rem; /*While putting the og picture make this 21.438rem */ */
+}
+@media only screen and (max-width: 767px)
+{
+  .textsaboutus
+  {
+    text-align: left;
+  }
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 3 BEGINS */
+.imagesOT
+{
+  text-align: center;
+}
+.OTtext
+{
+  margin-top: 4%;
+}
+#sagarsir
+{
+  width:50%;
+}
+.imagesOTI1:hover{
+  transform: scale(1.2);
+}
+.imagesOTI1
+{
+  width: 65%;
+}
+.headnameOT
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.25rem;
+line-height: 1.875rem;
+}
+.nextOT
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #5E90FF;
+}
+.descriptionOT
+{
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.375rem;
+color: #8C8D90;
+}
+#OTteachers
+{
+  display: none;
+}
+#OTteachersdesktop
+{
+  display: block;
+}
+@media (max-width:998px)
+{
+  #OTteachersdesktop
+  {
+    display: none;
+  }
+  #OTteachers
+  {
+    display: block;
+  }
+  .imagesOTI1
+  {
+    position: static;
+    width:25rem;
+    height: 25rem;
+  }
+  .OTtext
+  {
+    text-align: left;
+    padding-left: 7%;
+  }
+}
+
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 3 BEGINS */
+.cardofferings
+{
+  width: 21.543rem;
+  height: 35.313rem;
+  border: 0.5px solid #5E90FF;
+  border-radius: 20px;
+  margin: 2% 2% 2% 2%;
+}
+.cardofferings:hover
+{
+  transform: scale(1.17);
+}
+.titleofferings
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2.25rem;
+padding-top: 15%;
+}
+.subtitleofferings
+{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #5E90FF;
+padding-top: 3%;
+
+}
+.carditems
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5rem;
+padding-top: 5%;
+}
+.buttonmoverightofferings
+{
+  padding-left:67%;
+  padding-bottom: 5%;
+}
+@media (max-width:998px)
+{
+  .buttonmoverightofferings
+  {
+    margin:4% auto auto auto;
+  }
+  .cardofferings
+  {
+    display: block;
+    width:30rem;
+    margin: 5% auto auto auto;
+  }
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 4 BEGINS */
+.pp
+{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 1.6875rem;
+color: #4D4D4D;
+
+}
+.headersppo
+{
+  font-weight: 600;
+  color: black;
+  font-size: 1.25rem;
+}
+.textpp
+{
+  margin-left:7%;
+  text-align: left;
+}
+.headerpp
+{
+  margin-left: 7%;
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 4 BEGINS */
+.tncpp
+{
+color: #666666;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+}
+.headerstnc
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 2.25rem;
+}
+
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 5 BEGINS */
+.cardtestis
+{
+  width:22.875rem;
+  height:26rem;
+  margin : 0% 1.5% 2.5% 1.6%;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+#cardkatextinsection1 {
+  margin: 6% 0% -5% 13%;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: left;
+}
+
+.headertestimonials
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #2E5DA1;
+text-align: center;
+}
+.moretestis
+{
+  width: 23.938rem;
+  height: 9.25rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin: 0% 2% 2% 0%;
+}
+#testis
+{
+  font-size: 1.1rem;
+  margin-left: 40%;
+}
+.damnman
+{
+  font-size:1rem;
+  color:#808080
+}
+.dumbo
+{
+  text-align: center;
+  margin-top: 9%;
+}
+.videosintestimonials
+{
+  margin-left: 6%;
+  margin-top: -15%;
+}
+.movel
+{
+margin-left: -10.7%;
+margin-top: -10%;
+}
+.mover
+{
+margin-right: -4.7%;
+margin-top: -10%;
+}
+@media (max-width:998px)
+{
+.cardtestis
+{
+  margin: 5% auto auto auto;
+  width : 51%;
+}
+.moretestis
+{
+  width:48%;
+}
+.dumbo
+{
+  font-size: 2rem;
+  margin-top: inherit;
+}
+.damnman
+{
+  font-size: 1.3rem;
+}
+.videosintestimonials
+{
+  margin-left: 6%;
+  margin-top: -5%;
+}
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 6 BEGINS */
+#faqi1
+{
+  border-top: 1px solid #CCCCCC;
+}
+.faq-item
+{
+  border-bottom: 1px solid #CCCCCC;
+  padding: 1% 0% 0% 2%;
+}
+.faq-question
+{
+  color: #1A1A1A;
+}
+.faq-answer
+{
+  color: #808080;
+}
+.faq-question,.faq-answer
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500!important;
+font-size: 1.5rem;
+line-height: 2.25rem;
+}
+@media (max-width:998px)
+{
+  .faq-question
+  {
+    width: 100%;
+    height: 5rem;
+  }
+}
+/* *************************************************************************************************************************** */
+
+/* PAGE 7 BEGINS */
+.detailscontact
+{
+display: inline;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 2rem;;
+color: #666666;
+}
+.boxofintouch
+{
+width: 30.313rem;
+height: 55.313rem;
+margin:auto;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+}
+.labelsofgit
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 1.8rem;
+color: #808080;
+}
+input::placeholder,textarea::placeholder
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #B3B3B3;
+  padding-left: 3%;
+}
+.Getintouch, .contactus
+{
+  width: 50%;
+}
+#name
+{
+  width:25rem;
+}
+.inputsofgit
+{
+  width:25rem;
+  height:3rem;
+  border-radius:10px;
+  border-color:#B3B3B3;
+}
+.heightbadaliska
+{
+  height: 12rem;
+}
+@media (max-width:998px)
+{
+.Getintouch, .contactus
+{
+width: 95%;
+}
+
+.boxofintouch
+{
+  width:100%;
+}
+.inputsofgit
+{
+  width:90%;
+}
+#name
+{
+  width:90%;
+}
+.locationimages
+{
+  width:100%;
+}
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 8 BEGINS */
+.cardtoppers
+{
+  width:14.438rem;
+  height:19.875rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin: 2% 2% 0% 2%;
+}
+.cardtxt1
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.2rem;
+color: #333333;
+padding-top: 2%;
+}
+.cardtxt2
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 0.75rem;
+line-height: 1rem;
+margin-top: 2%;
+}
+
+@media (max-width:998px)
+{
+  .cardtoppers
+  {
+    margin: auto;
+  }
+  .a1819,.a1920,.a2021,.a2122
+  {
+    text-align: center;
+  }
+  .cardtxt1
+  {
+    font-size: 1.5rem;
+  }
+  .cardtxt2
+  {
+    font-size: 1.2rem;
+  }
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 8 BEGINS */
+.buttoninresourcesb
+{
+width:6.25rem;
+height:2rem;
+background: #FFFFFF;
+border: 3px solid grey;
+border-radius: 10px;
+}
+.buttoninresourcesb:active
+{
+  border: 3px solid black;
+}
+.physicsresources
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #333333;
+  width:15rem;
+  height:2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  margin: 2% 0% 0% 2%;
+}
+.hide {
+  display: none;
+}
+
+.physicsresources:hover + .hide {
+  font-family: 'Poppins';
+  color: #333333;
+  display: inline-block;
+  font-size: 0.8rem;
+  width: 10rem;
+  margin-top: -45px;
+  margin-left: -120px;
+  height: 3rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+@media (max-width:998px)
+{
+.physicsresources:hover + .hide
+{
+  display: none;
+}
+}
+.reclec
+{
+  width: 12rem;
+  height: 18rem;
+  margin: 2% 6% 1% 0%;
+}
+.reclec:hover
+{
+  transform: scale(1.15);
+}
+.reccardtxt1
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.25rem;
+color: #333333;
+}
+.reccardtxt2
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 0.7rem;
+line-height: 1rem;
+color: #B3B3B3;
+}
+.reccardtxt1:hover
+{
+  color: #79E0EE;
+}
+
+/* *************************************************************************************************************************** */
+
+/* PAGE 8 BEGINS */
+.eimg
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.Ehead
+{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.25rem;
+line-height: 2rem;
+color: #FFFFFF;
+}
+.Epopuphead
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+}
+.Edesc
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #1CC5DC;
+  display: none;
+}
+.cardevents
+{
+  width: 25rem;
+  height: 22.75rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 2% 2% 0% 2%;
+
+}
+
+
+.popup {
+  display: none; /* Hide the pop-up by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.popup-content {
+  background-color: #fff;
+  width: 72%;
+  margin: 12% 0% 0% 14%;
+  padding: 20px;
+  z-index: 1;
+}
+
+.popup-trigger {
+  cursor: pointer;
+}
+.Epopupdesc,.eimgpop
+{
+  margin: auto 23%;
+  text-align: left;
+  padding-top: 1%;
+}
+.eimgpop
+{
+width:65%;
+margin-left:18%;
+}
+.Epopupdesc
+{
+  margin-left:18%;
+  text-align:left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size:0.8rem;
+}
+.bleh
+{
+  height:10%;
+  width:10%;
+  margin-top: 18%;
+}
+@media (max-width:998px){
+.Epopupdesc,.Epopuphead,.eimgpop
+{
+  margin: auto 13%;
+  text-align: left;
+  padding-top: 1%;
+}
+.popup-content {
+  background-color: #fff;
+  width: 80%;
+  height: 40%;
+  margin: 10% auto;
+  padding: 20px;
+  z-index: 1;
+}
+.cardevents
+{
+      width: 65%;
+      height: 80%;
+      margin-left: 23%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+.mobilepealag
+{
+  display: none;
+}
+}
+/* ************************************************************** */
+.twoboxes
+{
+  width: 25rem;
+  height: 64rem;
+  box-shadow: 0px 4px 4px rgba(0.05, 0, 0, 0.2);
+  margin-left: 10%;
+}
+.Developersphotos
+{
+  width:80%;
+  justify-content: center;
+  margin-left: 12%;
+  padding:7%;
+}
+.headev
+{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+}
+.kaam
+{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -5%;
+}
+.desdev
+{
+color: #666666;
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#ddev
+{
+  font-size: 14px;
+}
+.fa-3x:hover
+{
+  color:#E5E5CB;
+}
+@media (max-width:998px)
+{
+  .twoboxes
+  {
+    margin:auto auto 12% auto;
+    width: 60%;
+  }
+  #ddev
+  {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/*colours */
+.blueberry
+{
+  color: #2E5DA1;
+}
+.banana
+{
+  color: #E38B29;
+}
+.cherry
+{
+  color: #FA5456;
+}
+.orange
+{
+  color:#F68827;
+}
+.lblue
+{
+  color:#5E90FF;
+}
+.cardcolorbl
+{
+  background: linear-gradient(180deg, #5E90FF 0%, #004FFF 100%);
+}
+.cardcoloror
+{
+  background: linear-gradient(180deg, #FF993F 0%, #FB7E10 40.94%, #FF5D02 99.97%, #FF7700 99.98%);
+}
+.cardcolored
+{
+  background: linear-gradient(180deg, #FF5D5F 0%, #F10306 100%);
+}
+.cardcolorcyan
+{
+  background: linear-gradient(180deg, #00F1FF 0%, #00C1CC 100%);
+}

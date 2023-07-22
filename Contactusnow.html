@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<!-- HTML CODE -->
+<head>
+  <!-- ENCODER -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TITLE -->
+  <title>Padmashree Academy</title>
+  <!-- JS-LINK -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- CSS-LINK -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- ICON -->
+  <link rel="icon" href="images/favicon.ico">
+  <style>
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+  <!-- FONT-AWESOME -->
+  <script src="https://kit.fontawesome.com/9da8c08b41.js" crossorigin="anonymous"></script>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary cryaboutitswidth navbar sticky-top ">
+<div class="container-fluid navbarcenterrehnede">
+  <a class="navbar-brand redfont blueberry" href="index.html" style="padding-left : 31px;">
+    <img src="images\logos\footerlogo.png" class="Padmashreelogo" alt="Padmashreelogo" style="width:65px;height:65px;">Padmashree Academy</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item sabkanavbar" style="padding-left : 40px;">
+        <a class="nav-link" aria-current="page" href="aboutus.html" >About Us</a>
+      </li>
+      <li class="nav-item sabkanavbar" style="padding-left : 41px;">
+        <a class="nav-link" href="offerings.html">Our Offerings</a>
+      </li>
+      <li class="nav-item sabkanavbar" style="padding-left : 41px;">
+        <a class="nav-link" href="resources.html">Study Materials</a>
+      </li>
+      <li class="nav-item sabkanavbar" style="padding-left : 41px;">
+        <a class="nav-link" href="Vtestimonials.html">Testimonials</a>
+      </li>
+      <li class="nav-item sabkanavbar" style="padding-left : 41px;">
+        <a class="nav-link" href="Events.html">Events</a>
+      </li>
+    </ul>
+</div>
+</div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="contactus">
+        <p style="font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 40px;line-height: 60px;color: #1A1A1A;">
+        Contact us</p>
+
+  <select id="dropdown" style=" width:13.313rem;height:3.375rem;font-size: 1.25rem;font-family: 'Poppins';font-style: normal;
+                  font-weight: 400;line-height: 2rem;border: 1px solid #E6E6E6;border-radius: 10px;"
+                  onchange="toggleContent()">
+    <option value="content1">Main Branch</option>
+    <option value="content2">Second Branch</option>
+    <option value="content3">Third Branch</option>
+  </select>
+  <br><br>
+
+<div class="content active" id="content1">
+  <i class="fa-solid fa-phone"></i><p class="detailscontact ul1">   <span style="text-decoration-line : underline;">+91 9387848343</span></p><br><br>
+  <i class="fa-solid fa-envelope"></i><p class="detailscontact ul1">    <span style="text-decoration-line : underline;">info@padmashreeacademy.com</span></p><br><br>
+  <i class="fa-solid fa-clock"></i><p class="detailscontact">   10am to 9pm</p><br><br>
+  <i class="fa-solid fa-location-dot"></i><p class="detailscontact">    101-102, First floor, Soham CHS, Ram Maruti Rd, <br>
+                                                    opposite Shiv Sagar Restaurant, Naupada,
+                                                  <br>Thane, Maharashtra 400602</p><br><br>
+  <p style="font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 40px;line-height: 60px;color: #1A1A1A;">
+                                                  Location</p>
+
+  <a href="https://goo.gl/maps/58Czqg9djfa4qLn86?coh=178571&entry=tt">
+    <img class="locationimages" src="images/padmashrimap.jpg" alt="Location">
+  </a>
+  <br><br><br><br>
+</div>
+
+<div class="content" id="content2">
+  <i class="fa-solid fa-phone"></i><p class="detailscontact ul1">   <span style="text-decoration-line : underline;">+91 9082560566</span></p><br><br>
+  <i class="fa-solid fa-envelope"></i><p class="detailscontact ul1">    <span style="text-decoration-line : underline;">info@padmashreeacademy.com</span></p><br><br>
+  <i class="fa-solid fa-clock"></i><p class="detailscontact">   10am to 9pm</p><br><br>
+  <i class="fa-solid fa-location-dot"></i><p class="detailscontact">    Padmashree Academy, <br>
+                                                    Shop no. 35, Amrapali Shopping Centre,
+                                                  <br>Vasant Vihar,Thane (W) - 400610.</p><br><br>
+  <p style="font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 40px;line-height: 60px;color: #1A1A1A;">
+                                                  Location</p>
+  <a href="https://goo.gl/maps/5Kr7nPiyiedW4p5r9">
+  <img class="locationimages" src="images\padmashrimap2.jpg" alt="Location">
+  </a>
+  <br><br><br><br>
+</div>
+
+<div class="content" id="content3">
+  <i class="fa-solid fa-phone"></i><p class="detailscontact ul1">   <span style="text-decoration-line : underline;">+91 9387848343</span></p><br><br>
+  <i class="fa-solid fa-envelope"></i><p class="detailscontact ul1">    <span style="text-decoration-line : underline;">info@padmashreeacademy.com</span></p><br><br>
+  <i class="fa-solid fa-clock"></i><p class="detailscontact">   10am to 9pm</p><br><br>
+  <i class="fa-solid fa-location-dot"></i><p class="detailscontact">    101-102, First floor, Soham CHS, Ram Maruti Rd, <br>
+                                                    opposite Shiv Sagar Restaurant, Naupada,
+                                                  <br>Thane, Maharashtra 400602</p><br><br>
+  <p style="font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 40px;line-height: 60px;color: #1A1A1A;">
+                                                  Location</p>
+  <a href="https://goo.gl/maps/58Czqg9djfa4qLn86?coh=178571&entry=tt">
+  <img class="locationimages" src="images\padmashrimap2.jpg" alt="Location">
+  </a>
+  <br><br><br><br>
+</div>
+
+</div>
+
+<div class="Getintouch">
+  <div class="boxofintouch">
+    <p style="font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 40px;line-height: 60px;color: #2E5DA1; text-align:center; padding-top : 10%;">
+    Get in Touch </p>
+
+    <form style="margin-left:8%;" action="https://formsubmit.co/fcce56f2125c07890c4c4365fbf83fbd" method="POST">
+
+        <input type="text" name="SPAM!!" style="display:none;">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://reubenarakkaparambil.github.io/ADG/Contactusnow.html">
+        <label for="name" class="labelsofgit">Full Name:</label><br>
+        <input type="text" id="name" name="Name" placeholder="John Doe" required class="inputsofgit"><br><br>
+
+        <label for="name1" class="labelsofgit">Email ID:</label><br>
+        <input type="email" id="email" name="Email" placeholder="abc@gmail.com" required class="inputsofgit"><br><br>
+
+        <label for="phone" class="labelsofgit">Phone:</label><br>
+        <input type="tel" id="phone" name="Phone-Number" placeholder="+91 XXXXXXXXXX" required class="inputsofgit"><br><br>
+
+        <label for="message" class="labelsofgit">Message:</label><br>
+        <textarea id="message" name="Message" rows="5" placeholder="Enter Message here" required class="inputsofgit heightbadaliska"></textarea><br><br>
+
+        <input type="checkbox" value="TermsandConditions" required>
+        <label for="TermsandConditions" class="labelsofgit"> I agree to the <a href="termsnconditions.html">Terms and Conditions </a></label>
+        <br><br>
+        <input type="submit" value="Submit" style="width: 15rem;height:4rem;background-color: #2E5DA1;border-radius: 10px; font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.5rem;" >
+    </form>
+
+  </div>
+</div>
+</div>
+
+
+</div>
+<!-- footer -->
+
+<footer id="footer">
+  <div class="container-fluid">
+      <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footyimage"><a href="index.html">
+        <img src="images/logos/footerlogo.png" class="Padmashreelogo" alt="Padmashreelogo"></a>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 oof">
+        <p class="footerheaders">Info</p>
+        <ul class="list-unstyled mb-0">
+          <li>
+              <a href="ourteam.html" class="footerdescriptors" style="text-decoration:none;">Our Teachers</a><br>
+              <a href="Contactusnow.html" class="footerdescriptors" style="text-decoration:none;">Contact Us</a><br>
+              <a href="FAQ's.html" class="footerdescriptors" style="text-decoration:none;">FAQ</a>
+          </li>
+        </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 oof">
+        <p class="footerheaders">Categories</p>
+        <ul class="list-unstyled mb-0">
+          <li>
+              <a href="toppers.html" class="footerdescriptors" style="text-decoration:none;">Our Students</a><br>
+              <a href="offerings.html" class="footerdescriptors" style="text-decoration:none;">Courses</a><br>
+              <a href="Vtestimonials.html" class="footerdescriptors" style="text-decoration:none;">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 oof">
+      <p class="footerheaders">Other links</p>
+        <ul class="list-unstyled mb-0">
+          <li>
+                <a href="termsnconditions.html" class="footerdescriptors" style="text-decoration:none;">Terms & Conditions</a><br>
+                <a href="privacypolicy.html" class="footerdescriptors" style="text-decoration:none;">Privacy Policy</a><br>
+                <a href="aboutme.html" class="footerdescriptors" style="text-decoration:none;">Contributors</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 oof ">
+        <form>
+    <label class="positionhagega">Subscribe</label><br>
+    <input type="email" placeholder="Email ID" name="mail" required id="inputemailcheez">
+    <input type="submit" value="Subscribe" id="submitbuttonfooter">
+    </form>
+    </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col sm-12">
+      <h6 class="finalending">© 2013 - 2023 Padmashree Academy | All rights reserved</h6>
+        </div>
+        <div class="col-lg-6 col-md-6 col sm-12 spacekar">
+      <h6 class="finalending andalign">Developed by Reuben Arakkaparambil   |  Designed by Deep Patel</h6>
+        </div>
+  </div>
+  </div>
+  </div>
+
+</footer>
+<script>
+        function toggleContent() {
+            var dropdown = document.getElementById("dropdown");
+            var selectedValue = dropdown.value;
+            var content1 = document.getElementById("content1");
+            var content2 = document.getElementById("content2");
+            var content3 = document.getElementById("content3");
+
+            if (selectedValue === "content1") {
+                content1.classList.add("active");
+                content2.classList.remove("active");
+                content3.classList.remove("active");
+            } else if (selectedValue === "content2") {
+                content1.classList.remove("active");
+                content2.classList.add("active");
+                content3.classList.remove("active");
+            }else if (selectedValue === "content3") {
+                content1.classList.remove("active");
+                content2.classList.remove("active");
+                content3.classList.add("active");
+            }
+        }
+    </script>
+</body>
+</html>
